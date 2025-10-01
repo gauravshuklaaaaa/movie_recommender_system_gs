@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run recommender_system.py
+web: streamlit run main.py --server.port=$PORT --server.headless=true
